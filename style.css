@@ -1,0 +1,137 @@
+body {background: url(back.jpg) no-repeat;
+		background-size: 100%;
+		background-position:0 63px;
+}
+
+ul {height:63px;
+	width:100%;
+	font-size:0;
+	margin-right:30px;
+	background:#074a87
+	}
+ul li {
+	float: right;
+	display:inline-block;
+	margin:20px;
+}
+
+
+ul li a {font-size:23px;
+		color: #54a8e2;
+		padding:18px;
+		text-decoration: none;
+		font-family: sans-serif;
+
+}
+li.bok1 {margin-top:0;
+		padding-top:20px;
+		padding-bottom:20px;
+		background: linear-gradient(to top, #2e7ac4, #4faedb);
+}
+
+
+li.border {padding:20px;
+	margin-top:0px;
+	border-right: 1px solid #54a8e2;}
+
+li.bok1 a {color:white;
+			padding:5px;
+			text-decoration:underline;
+			}
+
+li.bok2 a {color:white;}
+
+li.bok2 a:before{ content: url(flag.png);
+					margin-right:20px;
+				  margin-left:-30px;
+}
+
+ul > li > a:hover {
+    background-color: #4eabda;
+    color:white;
+   }
+
+
+
+.block {
+    width: 600px;
+    height: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -350px 0 0 -250px;
+}
+
+.fon {
+	    width: 600px;
+    height: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -350px 0 0 -250px;
+    background-color: black;
+    opacity:0.7;
+    z-index:-1;
+}
+h2 {font-size:30px;
+	color:white;
+	font-family:Arial, sans-serif;
+	padding: 30px 200px 30px 220px;
+	border-bottom: 1px solid white;
+	}
+
+.fb {
+	padding: 40px 165px 30px 165px;
+}
+
+.OU {font-size:20px;
+	color:gray;
+	font-family:Arial, sans-serif;
+	padding: 10px 290px 15px 290px;
+}
+
+hr {width:25%;
+	margin:0;
+	color:black;
+}
+
+
+
+.leftline{
+}
+
+}
+
+.rightline{
+}
+
+form {font-size:20px;
+		color:white;
+	}
+
+input {width:260px;
+	   height:24px;
+	   padding:5px;
+	   margin: 10px 165px 10px 165px;
+	   background-color: black;
+	   color:gray;
+	   border: 1px solid black;
+}
+
+.firstname {color:#21B1FF;}
+.lastname {color:#21B1FF;}
+.check  {
+		margin: 10px -110px 10px 45px;
+	}
+
+.create {width:150px;
+		height:50px;
+		margin: 10px 227px 10px 227px;
+		color:white;
+		background-color:#3f94d0;
+		border-radius: 5px;
+	}
+
+.last {text-align:center;
+	margin: 10px 165px 10px 165px;}
+
